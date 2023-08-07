@@ -1,11 +1,10 @@
-function init(){
-    var firstName = "Joyjeet"
-    console.log("I am init");
-    function sayFirstName(){
-        console.log(firstName);
-    }
-    return sayFirstName;
-}
+ sumTwo(a, b, ...args) {      //rest operator
+//     console.log(args);
+//     let multi = a * b;
 
-var value = init();
-
+//     let sum = 0;
+//     for (const arg of args) {
+//         sum += arg;
+//     }
+//     return [sum, multi];
+// }
